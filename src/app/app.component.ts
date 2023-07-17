@@ -1,5 +1,5 @@
-import { Component, ViewChild, AfterContentInit, AfterViewInit } from '@angular/core';
-import { MatTable, MatTableDataSource } from '@angular/material/table';
+import { Component, ViewChild, AfterViewInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
 
 export interface Item {
   nombre: string;
@@ -20,6 +20,7 @@ export class AppComponent implements AfterViewInit{
     { nombre: 'Galletas', costo: '60' },
   ];
   mostrarLista: boolean;
+  title: string ="Ejercicio con Angular";
 
   constructor() {
     this.mostrarLista = false;
