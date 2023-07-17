@@ -1,0 +1,39 @@
+
+button, h1{
+    margin: 1%;
+    font-size: 20px;
+}
+
+table {
+    min-width: 60%;
+    margin: 5% 20%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #2e0c5f;
+    font-weight: bold;
+  }
+  .mat-mdc-header-row{
+    background-color: #a60a94;
+}
+
+.mdc-data-table__header-cell{
+    color: azure;
+    
+}
+
+  .mat-mdc-row{
+    background-color: #f8cbf3;
+  }
+  
+  .mat-mdc-row:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  
